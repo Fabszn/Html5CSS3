@@ -8,16 +8,16 @@ body{
 div.effect{
 	color: #2d2d2d;
 	text-shadow: 0px 0px 0px #2d2d2d;
-	background-color:#e5e5e5;
+	background-color:#E7E8DD;
 }
 
 span{
-display:block;
+	display:block;
 }
 
 div{
 	height: auto;
- 	border: 1px solid #2d2d2d;
+ 	border: 0.2px solid #CED0BB;
  	padding:10px;
  	margin-top:5px;
  	border-radius: 10px;s
@@ -25,11 +25,21 @@ div{
 	text-shadow: 0px 0px 1.5px #2d2d2d; 
 }
 
-
-.cvBlocTitle{
-	font-size: 1em;
+.cvRubriqueTitle{
+	font-size: 30px;
 	margin: 5px 0px 2px 0.5px;	
 	padding: 9px;
+	font-weight:bold;
+	text-transform: capitalize;
+		
+	color: #CED0BB;
+}
+
+.cvBlocTitle{
+	font-size: 20px;
+	margin: 5px 0px 2px 0.5px;	
+	padding: 9px;
+		
 }
 
 .missionTitle{
@@ -58,7 +68,7 @@ margin: 7px 0px 7px 30px;
 div.specialities {
 	width: auto;
 	height: 160px;
-	padding-bottom: 40px;
+	
 }
 
 .coldisplay{
