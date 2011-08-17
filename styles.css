@@ -27,8 +27,9 @@ div{
 
 
 .cvBlocTitle{
-	font-size: 0.9em;
+	font-size: 1em;
 	margin: 5px 0px 2px 0.5px;	
+	padding: 9px;
 }
 
 .missionTitle{
@@ -51,17 +52,19 @@ margin: 7px 0px 7px 30px;
 
 }
 
-
-
-
 .summary{
 }
 
-div.summarySpecialities div {
-	height: auto;
+div.specialities {
 	width: auto;
-	
-
-
+	height: 160px;
+	padding-bottom: 20px;
 }
+
+.coldisplay{
+	position: relative;
+	top:-92px;
+	left:460px;
+}
+
 
